@@ -29,8 +29,8 @@ echo " EJECUTANDO CONTENEDOR..."
 echo "===================================="
 docker run --rm \
   --name samplerunning \
-  -e NEWS_API_KEY="${NEWS_API_KEY}" \
-  -e NEWS_TOPIC="${NEWS_TOPIC:-tecnologia}" \
+  -e NEWS_API_KEY="${0981e57bd7034b9186f569a48e82c102}" \
+  -e NEWS_TOPIC="${NEWS_TOPIC:-economia}" \
   news-app
 
 echo "===================================="
